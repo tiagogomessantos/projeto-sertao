@@ -59,6 +59,9 @@ header > img {
      padding-top: 20px;
      padding-bottom: 20px;
 }
+main img{
+ width: 100%;
+}
 main main {
     padding-top: 5px;
     background-color:var(--cor1);
