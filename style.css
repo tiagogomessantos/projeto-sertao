@@ -44,8 +44,8 @@ header > img {
      text-align: center;
  }
  main{
-     min-width: 450px;
-     max-width: 1300px;
+     min-width: 300px;
+     max-width: 1000px;
      margin: auto;
      background-color: white;
      border-radius: 15px 15px 11px 11px;
