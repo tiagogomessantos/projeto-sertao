@@ -12,21 +12,25 @@ body{background-color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
+
 header{font-size: 1.2em;
     margin-bottom: 9px;
 }
+
 header > img {
     margin-left: -2px;
 }
+
  header p {
      font-size: 0.9em;
      margin: -49px 0px 20px 53px;
     }
+
  nav{margin-top: -54px;
     margin-bottom: 50px;
     text-align: right;
-
 }
+
  nav > a{
      font-size: 0.5em;
      text-decoration: none;
@@ -36,13 +40,16 @@ header > img {
      padding: 5px;
      border-radius: 5px;
  }
+
  nav > a:hover{
      background-color: white;
      color: var(--cor1);
  }
+
  nav h1{
      text-align: center;
  }
+/*cabeçalho com a navegaçao*/
  main{
      min-width: 300px;
      max-width: 1000px;
@@ -52,48 +59,55 @@ header > img {
      text-indent: 30px;
      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.349);
  }
+ 
+ main p{
+    line-height: 1.5em;
+    border-radius: 11px 11px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
  main h3{
      margin: auto;
  }
- main p{
-     line-height: 1.5em;
-     border-radius: 11px 11px 0px 0px;
-     padding-top: 20px;
-     padding-bottom: 20px;
-}
+
 main img{
  width: 100%;
 }
+
 main main {
     padding-top: 5px;
     background-color:var(--cor1);
     border-radius: 0px;
 }
+
 div.video{
     padding: 20px;
     margin: 0px -13px 30px -9px;
     padding: 20px;
     padding-bottom: 54.9%;
-
     position: relative;
 }
+
 div.video > iframe{
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height:90% ;
-
 }
+
  section{
      text-align: center;
      padding-bottom: 20px;
      margin-bottom: 9px;
  }
+
  section h3{
      margin-top: 30px;
      margin-bottom: 30px;
  }
+
  section section{
      background-color: darkgreen;
      padding: 6px;
@@ -102,10 +116,12 @@ div.video > iframe{
      font-size: 1em;
      margin-top: 176px;
  }
+
  p.img{
     background-color: var(--cor1);
     padding: 8px;
  }
+
  footer{
      padding-top: 30px;
      padding-bottom: 30px;
@@ -113,13 +129,14 @@ div.video > iframe{
      text-align: center;
      margin-top: 30px;
  }
+
  footer p{
      color: black;
  }
+
  footer a{
      color:white;
      text-decoration: none;
      border-radius: 5px;
      padding: 5px;
-
  }
