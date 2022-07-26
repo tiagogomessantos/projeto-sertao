@@ -51,8 +51,7 @@ header > img {
  }
 /*cabeçalho com a navegaçao*/
  main{
-     min-width: 300px;
-     max-width: 1000px;
+     width: 1000px;
      margin: auto;
      background-color: white;
      border-radius: 15px 15px 11px 11px;
@@ -71,9 +70,7 @@ header > img {
      margin: auto;
  }
 
-main img{
- width: 100%;
-}
+
 
 main main {
     padding-top: 5px;
@@ -104,6 +101,7 @@ div.video > iframe{
  }
 
  section h3{
+    text-align: center;
      margin-top: 30px;
      margin-bottom: 30px;
  }
@@ -140,3 +138,23 @@ div.video > iframe{
      border-radius: 5px;
      padding: 5px;
  }
+ 
+ @media(max-width: 1241px) {
+    main{width: 1000px;}
+}
+@media(max-width: 1045px){
+   main{
+    width: 700px;
+       color: black;
+   }
+}
+@media(max-width: 768px){
+    main{
+        width: 400px;
+    }
+}
+@media(max-width: 425px){
+    main{
+        width: 320;
+    }
+}
